@@ -21,3 +21,8 @@ SELECT *, `hour`, `date`
 FROM `exams`
 WHERE `hour` LIKE '16%'
 AND `date` = '2020-06-20'
+
+-- 6. Selezionare tutti i corsi di laurea magistrale
+SELECT *, `level`
+FROM `degrees`
+WHERE `level` = 'magistrale'
